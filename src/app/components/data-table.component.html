@@ -1,0 +1,17 @@
+<h1>Data Table</h1>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+    </tr>
+    <tr *ngFor="let data of dataRow">
+        <th>{{data.id}}</th>
+        <th>{{data.firstName}}</th>
+        <th>{{data.lastName}}</th>
+        <th>{{data.age}}</th>
+    </tr>
+
+</table>
